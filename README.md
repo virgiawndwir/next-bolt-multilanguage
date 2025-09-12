@@ -26,7 +26,7 @@ A modern, responsive website built with Next.js 15, TypeScript, and Tailwind CSS
 1. Clone the repository:
 ```bash
 git clone https://github.com/virgiawndwir/next-bolt-multilanguage.git
-cd website
+cd next-bolt-multilanguage
 ```
 
 2. Install dependencies:
