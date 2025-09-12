@@ -11,7 +11,7 @@ const Header: React.FC = () => {
           <Logo />
           <Navigation />
           <div className="flex items-center space-x-4">
-            <SearchBar />
+            {/* <SearchBar /> */}
             <LanguageToggle />
           </div>
         </div>

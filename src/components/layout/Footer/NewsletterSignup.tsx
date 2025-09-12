@@ -30,7 +30,7 @@ const NewsletterSignup: React.FC = () => {
       <p className="text-gray-300 mb-6">
         {t('footer.newsletter.subtitle')}
       </p>
-      <form onSubmit={handleSubmit} className="flex gap-2">
+      <form onSubmit={handleSubmit} className="grid md:flex gap-2">
         <input
           type="email"
           placeholder={t('footer.newsletter.placeholder')}

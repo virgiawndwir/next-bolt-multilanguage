@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import type { MenuItem } from '@/types';
 import { useLanguage } from '@/contexts/LanguageContext';
+import SearchBar from './SearchBar';
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +51,7 @@ const Navigation: React.FC = () => {
       {isOpen && (
         <div className="absolute top-16 left-0 right-0 bg-white shadow-lg border-t md:hidden">
           <nav className="container mx-auto px-4 py-4">
+            {/* <SearchBar /> */}
             {menuItems.map((item) => (
               <Link
                 key={item.href}
